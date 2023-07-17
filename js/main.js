@@ -1,5 +1,46 @@
 
+$('.owl-carousel.our-team').owlCarousel({
+  rtl: true,
+  loop:true,
+  margin:8,
+  nav:true,
+  dots: false,
+  autoplay:true,
+  autoplayTimeout:5000,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:4
+      }
+  }
+})
 
+
+$('.owl-carousel').owlCarousel({
+  rtl: true,
+  loop:true,
+  margin:10,
+  nav:false,
+  dots: false,
+  autoplay:true,
+  autoplayTimeout:1500,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+})
 
 
 
@@ -71,46 +112,5 @@ showContent.addEventListener('click' , ()=>{
   down_up.classList.toggle('fa-caret-up');
 })
 
-$('.owl-carousel.our-team').owlCarousel({
-  rtl: true,
-  loop:true,
-  margin:8,
-  nav:true,
-  dots: false,
-  // autoplay:true,
-  autoplayTimeout:5000,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:3
-      },
-      1000:{
-          items:4
-      }
-  }
-})
 
-
-$('.owl-carousel').owlCarousel({
-  rtl: true,
-  loop:true,
-  margin:10,
-  nav:false,
-  dots: false,
-  autoplay:true,
-  autoplayTimeout:1500,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:3
-      },
-      1000:{
-          items:5
-      }
-  }
-})
 
