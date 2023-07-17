@@ -645,7 +645,7 @@ header .under .btn a{
 .essays .row .contain .card-info .details h4{
   color: var(--nav);
 }
-.essays .row .contain  .span-title{
+.essays .row .contain .span-title{
   position: absolute;
 bottom: 3%;right: 3%;
 background-color: var(--nav);
