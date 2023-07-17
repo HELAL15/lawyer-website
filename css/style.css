@@ -384,8 +384,8 @@ header .carousel-caption .btns {
 header .carousel-indicators button{
   width: 10px !important;height: 10px !important;
   border-radius: 50%;
-  
 }
+
 header .carousel-inner{
   width: 75% !important;
     height: 100% !important;
@@ -402,6 +402,22 @@ header .carousel-inner .carousel-item {
 header .carousel-caption{
   height: 50%;
   text-align: start;
+}
+header .carousel-caption .ask a{
+  text-decoration: none;
+  color: var(--nav);
+  font-weight: bold;
+}
+header .carousel-caption .contact a{
+  text-decoration: none;
+  color: var(--font);
+  font-weight: bold;
+  transition: 1s;
+}
+header .carousel-caption .contact:hover a{
+  text-decoration: none;
+  color: var(--nav);
+  font-weight: bold;
 }
 header .carousel-caption h3{
   font-size: 32px;
