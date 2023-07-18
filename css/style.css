@@ -39,10 +39,6 @@
 .fancybox-bg {
   background: #16302d;
 }
-/* .fancybox-thumbs-active{
-  color: var(--nav);
-  border: 5px solid var(--nav);
-} */
 .fancybox-thumbs__list a:before {
   border: 6px solid var(--nav);
 }
@@ -261,13 +257,13 @@ body{
   filter: brightness(0) invert(1);
 }
 .navbar .container .navbar-brand  {
-  width: 288px !important;
+  width: 200px !important;
   height: 64px;
   display: flex;
   align-items: center;
 }
 .navbar .container ul li .nav-link{
-  font-size: 20px !important;
+  font-size: 18px !important;
   color: var(--font) !important;
   opacity: 50%;
   transition: .3s;
@@ -399,6 +395,7 @@ header .carousel-inner .carousel-item {
   height: 100%;
   
 }
+
 header .carousel-caption{
   height: 50%;
   text-align: start;
@@ -1247,6 +1244,9 @@ form .checkbox-gap{
   .breadCrumb .container li{
     font-size: 20px;
   }
+  .language{
+    padding-right: 1rem !important;
+  }
   header .carousel-caption {
     position: absolute;
     right: 6%;
@@ -1330,13 +1330,13 @@ form .checkbox-gap{
   /*  */
 }
 .main-service .box-services2 button{
-  padding: 20px;
+  padding: 15px;
 }
 .main-service .nav-pills .nav-link{
   display: flex;
   flex-direction: row;
 }
 .main-service .container .nav-link .img-cont {
-  padding: 15px 15px;
+  padding: 10px 10px;
 }
 }

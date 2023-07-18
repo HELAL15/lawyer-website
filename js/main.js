@@ -1,6 +1,13 @@
 
+const Body = document.getElementsByTagName('body')[0];
+console.log(Body)
+let rtlValue = false;
+if (Body.style.direction = 'rlt') {
+  rtlValue = true;
+}
+
 $('.owl-carousel.our-team').owlCarousel({
-  rtl: true,
+  rtl: rtlValue,
   loop:true,
   margin:8,
   nav:true,
@@ -22,7 +29,7 @@ $('.owl-carousel.our-team').owlCarousel({
 
 
 $('.owl-carousel').owlCarousel({
-  rtl: true,
+  rtl: rtlValue,
   loop:true,
   margin:10,
   nav:false,
@@ -43,74 +50,46 @@ $('.owl-carousel').owlCarousel({
 })
 
 
-
-
-
 const play_v = document.querySelector('#play');
 const pause_v = document.querySelector('#pause');
 
-function play(){
-  var video = document.querySelector('#video');
-var imgPause = document.querySelector('.for-pause');
-  play_v.classList.add('d-none');
-  pause_v.classList.remove('d-none');
-  imgPause.classList.add('hide');
-  video.play();
-  console.log('clicked')
+if(play_v !=null && pause_v !=null){
+
+  play_v.addEventListener('click', () => {
+    var video = document.querySelector('#video');
+  var imgPause = document.querySelector('.for-pause');
+    play_v.classList.add('d-none');
+    pause_v.classList.remove('d-none');
+    imgPause.classList.add('hide');
+    video.play();
+    console.log('clicked')
+  });
+  
+  pause_v.addEventListener('click', () => {
+    var video = document.querySelector('#video');
+  var imgPause = document.querySelector('.for-pause');
+    play_v.classList.remove('d-none');
+    pause_v.classList.add('d-none');
+    imgPause.classList.remove('hide');
+    video.pause();
+  });
 }
-
-
-function pause(){
-  var video = document.querySelector('#video');
-var imgPause = document.querySelector('.for-pause');
-  play_v.classList.remove('d-none');
-  pause_v.classList.add('d-none');
-  imgPause.classList.remove('hide');
-  video.pause();
-}
-
-// play_v.addEventListener('click', () => {
-//   var video = document.querySelector('#video');
-// var imgPause = document.querySelector('.for-pause');
-//   play_v.classList.add('d-none');
-//   pause_v.classList.remove('d-none');
-//   imgPause.classList.add('hide');
-//   video.play();
-//   console.log('clicked')
-// });
-
-// pause_v.addEventListener('click', () => {
-//   var video = document.querySelector('#video');
-// var imgPause = document.querySelector('.for-pause');
-//   play_v.classList.remove('d-none');
-//   pause_v.classList.add('d-none');
-//   imgPause.classList.remove('hide');
-//   video.pause();
-// });
 
 
 
 
 const showContent = document.getElementById('show-content');
-console.log(showContent);
 
-// function showContent(){
-//   let hideContent = document.querySelector('.content');
-//   let down_up = document.getElementById('down-up');
-//   console.log('clicked');
-//   hideContent.classList.toggle('d-none');
-//   down_up.classList.toggle('fa-caret-down');
-//   down_up.classList.toggle('fa-caret-up');
-// }
-
-showContent.addEventListener('click' , ()=>{
-  let hideContent = document.querySelector('.content');
-  let down_up = document.getElementById('down-up');
-  console.log('clicked');
-  hideContent.classList.toggle('d-none');
-  down_up.classList.toggle('fa-caret-down');
-  down_up.classList.toggle('fa-caret-up');
-})
+if(showContent != null){
+  showContent.addEventListener('click' , ()=>{
+    let hideContent = document.querySelector('.content');
+    let down_up = document.getElementById('down-up');
+    console.log('clicked');
+    hideContent.classList.toggle('d-none');
+    down_up.classList.toggle('fa-caret-down');
+    down_up.classList.toggle('fa-caret-up');
+  })
+}
 
 
 
