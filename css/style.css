@@ -1017,16 +1017,20 @@ iframe{
   font-weight: bold;
   padding-bottom: 20px;
 }
-.our-contacts .card p{
-  font-size: 20px;
-  color: var(--p-font);
-  text-align: center;
-  width: 100%;
-  display: flex;
+.our-contacts .card .nos {
+  display: flex !important;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
-  gap: 1rem;
+  gap: .5rem;
+  direction: ltr;
+}
+.our-contacts .card a{
+  font-size: 20px;
+  color: var(--p-font);
+  text-decoration: none;
+  text-align: center;
 }
 
 form .row .submit{
