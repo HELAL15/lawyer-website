@@ -1031,6 +1031,10 @@ iframe{
   color: var(--p-font);
   text-decoration: none;
   text-align: center;
+  transition: .3s;
+}
+.our-contacts .card a:hover{
+  font-weight: bold;
 }
 
 form .row .submit{
