@@ -630,31 +630,38 @@ header .under .btn a{
   color: var(--icons-bg);
   font-size: 24px;
 } 
-.services .container .row .brdr .more a .fas{
+.services .container .row  .more a .fas{
   font-size: 35px;
   color: var(--font);
   opacity: .5;
   transition: .3s;
 }
-.services .container .row .brdr .more a .fas:hover{
+.services .container .row  .more a .fas:hover{
   opacity: 1;
 }
-.services .container .row .brdr .icon img{
+.services .container .row  .icon img{
   border: 1px dashed var(--font);
   border-radius: 50%;
 }
-.brdr:nth-child(1) , .brdr:nth-child(2) , .brdr:nth-child(3){
+/* .brdr:nth-child(1) , .brdr:nth-child(2) , .brdr:nth-child(3){
   border-bottom: 2px dashed #5989c74b;
-}
-.services .container .row .brdr:nth-child(2) , .brdr:nth-child(3)
+} */
+/* .services .container .row .brdr:nth-child(2) , .brdr:nth-child(3)
 , .brdr:nth-child(5) , .brdr:nth-child(6)  {
   border-right: 2px dashed #5989c74b;
+} */
+.services .container .make-brdr .col-md-4:nth-child(3n+2),
+.services .container .make-brdr .col-md-4:nth-child(3n+3){
+  border-right: 2px dashed #5989c74b;
 }
-.services .container .row .brdr h3{
+.services .container .make-brdr .col-md-4:nth-child(n+4){
+  border-top: 2px dashed #5989c74b;
+}
+.services .container .row  h3{
   font-size: 24px;
   color: var(--font);
 }
-.services .container .row .brdr p{
+.services .container .row  p{
   font-size: 20px;
   color: var(--p-font);
   font-weight: 300;
@@ -1238,6 +1245,10 @@ header .carousel-inner .carousel-item {
 .whoWe .title{
   margin-top: 560px;
 }
+.services .container .make-brdr .col-md-4:nth-child(n+2){
+  border-top: 2px dashed #5989c74b;
+  border-right: none;
+}
 form .checkbox-gap{
   gap: 1rem;
 }
@@ -1297,15 +1308,18 @@ form .checkbox-gap{
   .services .container .head .col a {
     font-size: 18px;
   }
-  .services .container .row .brdr:nth-child(2), .brdr:nth-child(3), .brdr:nth-child(5), .brdr:nth-child(6) {
+  /* .services .container .row .brdr:nth-child(2), .brdr:nth-child(3), .brdr:nth-child(5), .brdr:nth-child(6) {
     border-right: none; 
 }
-
 .services .container .row .brdr{
   border-bottom: 2px dashed #5989c74b;
 }
 .services .container .row .brdr:last-child{
   border-bottom: none;
+} */
+.services .container .make-brdr .col-md-4:nth-child(n+2){
+  border-top: 2px dashed #5989c74b;
+  border-right: none;
 }
 .our-team .container .row .w-75{
   width: 100% !important;
