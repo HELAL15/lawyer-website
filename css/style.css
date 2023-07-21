@@ -1301,7 +1301,7 @@ form .checkbox-gap{
   }
 .services .container .make-brdr .col-md-4:nth-child(n+2){
   border-top: 2px dashed #5989c74b;
-  border-right: none;
+  border-left: none;
 }
 .our-team .container .row .w-75{
   width: 100% !important;
@@ -1351,7 +1351,6 @@ form .checkbox-gap{
 .main-service .box-services2{
   display: flex !important;
   margin: 30px 0;
-  /*  */
 }
 .main-service .box-services2 button{
   padding: 15px;
