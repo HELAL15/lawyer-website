@@ -643,16 +643,9 @@ header .under .btn a{
   border: 1px dashed var(--font);
   border-radius: 50%;
 }
-/* .brdr:nth-child(1) , .brdr:nth-child(2) , .brdr:nth-child(3){
-  border-bottom: 2px dashed #5989c74b;
-} */
-/* .services .container .row .brdr:nth-child(2) , .brdr:nth-child(3)
-, .brdr:nth-child(5) , .brdr:nth-child(6)  {
-  border-right: 2px dashed #5989c74b;
-} */
-.services .container .make-brdr .col-md-4:nth-child(3n+2),
-.services .container .make-brdr .col-md-4:nth-child(3n+3){
-  border-right: 2px dashed #5989c74b;
+.services .container .make-brdr .col-md-4:nth-child(3n+1),
+.services .container .make-brdr .col-md-4:nth-child(3n+2){
+  border-left: 2px dashed #5989c74b;
 }
 .services .container .make-brdr .col-md-4:nth-child(n+4){
   border-top: 2px dashed #5989c74b;
@@ -739,12 +732,6 @@ color: var(--font);
   filter: brightness(.5);
   margin-bottom: 20px;
 }
-/* .single-article .container .contain .card-img img{
-  transition: .6s;
-}
-.single-article .container .contain .card-img:hover img{
-  transform:scale(1.1) ;
-} */
 .single-article .container .card-info{
   display: flex;
   justify-content: space-between;
@@ -1308,15 +1295,6 @@ form .checkbox-gap{
   .services .container .head .col a {
     font-size: 18px;
   }
-  /* .services .container .row .brdr:nth-child(2), .brdr:nth-child(3), .brdr:nth-child(5), .brdr:nth-child(6) {
-    border-right: none; 
-}
-.services .container .row .brdr{
-  border-bottom: 2px dashed #5989c74b;
-}
-.services .container .row .brdr:last-child{
-  border-bottom: none;
-} */
 .services .container .make-brdr .col-md-4:nth-child(n+2){
   border-top: 2px dashed #5989c74b;
   border-right: none;
