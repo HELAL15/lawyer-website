@@ -1,6 +1,5 @@
 
 const Body = document.getElementsByTagName('body')[0];
-console.log(Body)
 let rtlValue = false;
 if (Body.style.direction = 'rlt') {
   rtlValue = true;
@@ -74,8 +73,6 @@ if(play_v !=null && pause_v !=null){
     video.pause();
   });
 }
-
-
 
 
 const showContent = document.getElementById('show-content');

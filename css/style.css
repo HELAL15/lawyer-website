@@ -647,6 +647,7 @@ header .under .btn a{
   border: 1px dashed var(--font);
   border-radius: 50%;
 }
+
 .services .container .make-brdr .col-md-4:nth-child(3n+1),
 .services .container .make-brdr .col-md-4:nth-child(3n+2){
   border-left: 2px dashed #5989c74b;
@@ -1238,6 +1239,8 @@ header .carousel-inner .carousel-item {
 }
 .services .container .make-brdr .col-md-4:nth-child(n+2){
   border-top: 2px dashed #5989c74b;
+}
+.services .container .make-brdr .col-md-4:nth-child(n){
   border-left: none;
 }
 form .checkbox-gap{
@@ -1301,7 +1304,12 @@ form .checkbox-gap{
   }
 .services .container .make-brdr .col-md-4:nth-child(n+2){
   border-top: 2px dashed #5989c74b;
+
+
+}
+.services .container .make-brdr .col-md-4:nth-child(n){
   border-left: none;
+  padding: 0 10px;
 }
 .our-team .container .row .w-75{
   width: 100% !important;
