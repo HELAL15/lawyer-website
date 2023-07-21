@@ -533,6 +533,10 @@ header .under .btn a{
   top: 50%;right: 0%;
   transform: translate(50%,-50%);
 }
+.whoWe .container .title .title-main .icon img{
+  filter: brightness(14) invert(0);
+  width: 50%;
+}
 .whoWe .container .title .title-main h3{
   font-size: 22px;
   color: var(--nav);
