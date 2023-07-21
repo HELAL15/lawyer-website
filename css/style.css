@@ -1238,7 +1238,7 @@ header .carousel-inner .carousel-item {
 }
 .services .container .make-brdr .col-md-4:nth-child(n+2){
   border-top: 2px dashed #5989c74b;
-  border-right: none;
+  border-left: none;
 }
 form .checkbox-gap{
   gap: 1rem;
